@@ -1,0 +1,34 @@
+{
+    "name": "analog-b",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT License",
+    "devDependencies": {
+        "@fitbit/sdk": "~6.0.1",
+        "@fitbit/sdk-cli": "^1.7.3"
+    },
+    "fitbit": {
+        "appUUID": "7c681a2d-ab7f-4105-bac9-8d4ac55002bd",
+        "appType": "clockface",
+        "appDisplayName": "Analog B",
+        "iconFile": "resources/icon.png",
+        "wipeColor": "#ffffff",
+        "requestedPermissions": [
+            "access_heart_rate"
+        ],
+        "buildTargets": [
+            "atlas",
+            "vulcan"
+        ],
+        "i18n": {
+            "en-US": {
+                "name": "Analog B"
+            }
+        },
+        "defaultLanguage": "en-US"
+    },
+    "scripts": {
+        "build": "fitbit-build",
+        "debug": "fitbit"
+    }
+}

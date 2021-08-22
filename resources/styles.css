@@ -1,0 +1,86 @@
+.big-tick {
+    x: 0%-1;
+    y: -48%;
+    width: 4;
+    height: 15;
+    fill: #ffffff;
+}
+
+.little-tick {
+    x: 0%-1;
+    y: -48%;
+    width: 3;
+    height: 5;
+    fill: #333333;
+}
+
+#day-label {
+    fill: "white";
+    font-size: "26";
+    font-family: "System-Light";
+    text-anchor: "middle";
+    x: "22%";
+    y: "53%";
+}
+
+#day_underline {
+    fill: "#c8b900";
+    width: "32";
+    height: "2";
+    x: "17%";
+    y: "56%";
+}
+
+#date-label {
+    fill: "white";
+    font-size: "26";
+    font-family: "System-Light";
+    text-anchor: "middle";
+    x: "82%";
+    y: "53%";
+}
+
+#heart-label {
+    fill: "#c8b900";
+    font-size: "28";
+    font-family: "System-Bold";
+    text-anchor: "middle";
+    x: "50%";
+    y: "81%";
+}
+
+#hour-hand-image {
+    width: "14";
+    height: "91";
+    x: "$-7";
+    y: "-91";
+}
+
+#minute-hand-image {
+    width: "6";
+    height: "165";
+    x: "$-3";
+    y: "-165";
+}
+
+#second-hand-rect {
+    fill: "#333333";
+    width: "2";
+    height: "200";
+    x: "$-1";
+    y: "-170";
+}
+
+#dial-center-outer {
+    fill: "white";
+    cx: "50%";
+    cy: "50%";
+    r: "4";
+}
+
+#dial-center-inner {
+    fill: "black";
+    r: "2";
+    cx: "50%";
+    cy: "50%";
+}
