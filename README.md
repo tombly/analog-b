@@ -1,6 +1,8 @@
 # analog-b
 A simple analog clock face for the Fitbit Sense smartwatch.
 
+![720P (HD)](https://user-images.githubusercontent.com/6111417/130339589-32f7cd21-2aaa-4527-b2ac-3ea9092328df.png)
+
 ## Building and running
 
 1. Clone the repo.
